@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class ClassePrincipal {
 
@@ -40,6 +41,12 @@ public class ClassePrincipal {
 		
 		// Casting = Forçar variável a ser 1 tipo de dado
 		idadePessoa = (byte) (idadePessoa + 1); // idadePessoa + 1 == Inteiro
+		
+		//Input
+		Scanner batata_var = new Scanner(System.in);
+		System.out.println("Informe sua idade");
+		int idadeAluno = batata_var.nextInt();
+		System.out.println("Sua idade é " + idadeAluno + " anos");//Concatenar = Juntar
 	}
 
 }
